@@ -8,6 +8,7 @@ namespace Picqer\BolPlazaClient\Entities;
  *
  * @param string $OrderItemId
  * @param string $EAN
+ * @param string $OfferReference
  * @param string $Title
  * @param string $Quantity
  * @param string $Price
@@ -21,6 +22,7 @@ class BolPlazaOpenOrderItem extends BaseModel {
     protected $attributes = [
         'OrderItemId',
         'EAN',
+        'OfferReference',
         'Title',
         'Quantity',
         'Price',
